@@ -1,12 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { View, Text } from "react-native";
 
-export default class Book extends Component {
-  render() {
-    return (
-      <View>
-        <Text>Book</Text>
-      </View>
-    );
-  }
+export default function Book() {
+  return (
+    <View>
+      <Text>Book</Text>
+    </View>
+  );
 }
